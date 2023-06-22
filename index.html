@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Linl css-->
+    <link rel="stylesheet" href="index.css/style.css">
+    
+    <title>Projeto HTML</title>
+</head>
+<body>
+    <!-- abrir header-->
+    <header style="background-image: url('img/banner_inicio.png')">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/assistencia_eletrica-removebg-preview (1).png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="#suporte">Suporte</a>
+                    <a href="#depoimentos">depoimentos</a>
+                    <a href="#Sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a class="btn animate-btn" href="#contatos">Contatos</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1 class="responsive-title">Assistencia elétrica</h1>
+                    <p style="color: white;">Proteja seus equipamentos e garanta a tranquilidade: invista em assistências
+                        em redes elétricas e esteja sempre um passo à frente dos imprevistos energéticos. 
+                        Sua segurança e a preservação dos seus aparelhos não têm preço!</p>
+                    <a href="#contatos" class="btn animate-btn">Entre em contato</a>
+                </div>
+            </section>
+        </div>
+        <!-- container-->
+    </header>
+    <!-- fechar header-->
+
+
+<!--suporte-->
+<section id="suporte" class="suporte">
+    <div class="container">
+      <div class="suporte-text">
+        <h3 class="h3">Tenha o suporte</h3>
+        <p>Tenha o suporte elétrico que você precisa, sempre pronto para atender suas demandas.
+          Conte com nossa equipe especializada para solucionar problemas, realizar instalações
+          seguras e oferecer assistência técnica confiável.
+          Mantenha sua rede elétrica em perfeito funcionamento e tenha tranquilidade em todos os momentos.
+        </p>
+        <a href="#contatos" class="btn">Entre em contato</a>
+      </div>
+    </div>
+  </section>
+<!--imagens-->
+
+
+  <section class="cards-section">
+    <div class="card">
+      <img src="img/OIP-_2_ (1).png" alt="Imagem 1">
+    </div>
+    <div class="card">
+      <img src="img/R.png" alt="Imagem 2">
+    </div>
+    <div class="card">
+      <img src="img/OIP (1).png" alt="Imagem 3">
+      <div class="card-overlay">
+    
+      </div>
+    </div>
+  </section>
+  <!--imagens-->
+  <section class="qualidade">
+    <div class="container">
+      <div class="qualidade-text">
+        <h3 class="h3">Ter um suporte de qualidade nunca foi tão fácil</h3>
+        <p>Conte com nossa equipe altamente capacitada e experiente para atender às suas necessidades elétricas.
+          Tenha a garantia de um serviço confiável, eficiente e realizado por profissionais qualificados.
+          Simplifique sua vida e desfrute da tranquilidade de ter um suporte de excelência ao seu alcance.
+        </p>
+        <a href="#contatos" class="btn">Entre em contato</a>
+      </div>
+    </div>
+  </section>
+<!--encerra suporte2-->
+
+<!--abrir depoimento-->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h3>Nossos depoimentos</h3>
+            <p>Leia o que nossos clientes falam de nossos serviços</p>    
+            <div class="cards">
+            <!--card1-->
+                <div class="card-item">
+                    <img src="img/icono-usuario_126283-435-removebg-preview (1).png" alt="Lucas">
+                    <p class="nome-user"> Lucas Souza</p>
+                    <p class="depoimento-user">Estou extremamente satisfeito com o serviço de assistência de energia que recebi.
+                        A equipe foi profissional, ágil e resolveu 
+                        o problema de forma eficiente.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>  
+                </div>
+            <!--card1 fim-->
+            <!--card2-->
+                <div class="card-item">
+                    <img src="img/icono-usuario_126283-435-removebg-preview (1).png" alt="Lucas">
+                    <p class="nome-user"> Uyres Pereira</p>
+                    <p class="depoimento-user">Fiquei impressionado com o conhecimento 
+                        técnico dos profissionais, que demonstraram grande habilidade 
+                        ao lidar com a complexidade da minha rede elétrica.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>  
+                </div>
+        
+            <!--card2 fim-->
+            <!--card3-->
+                <div class="card-item">
+                    <img src="img/icono-usuario_126283-435-removebg-preview (1).png" alt="Lucas">
+                    <p class="nome-user"> Levi Mendes</p>
+                    <p class="depoimento-user">O atendimento ao cliente foi excepcional, com respostas rápidas e uma 
+                        abordagem amigável. Recomendo o serviço todos que buscam qualidade e confiança.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>  
+                </div>
+            <!--card3 fim-->
+        </div>
+      </div> 
+    </section>
+<!--sobre-->
+<section id="Sobre" class="Sobre">
+    <div class="Sobre-text">
+      <h2>Sobre Nossa Empresa</h2>
+      <p> A nossa empresa é especializada em fornecer soluções de energia personalizadas para empresas de diversos setores. Com mais de 4 anos de experiência no mercado, estamos comprometidos em oferecer serviços confiáveis e eficientes que atendam às necessidades energéticas dos nossos clientes.
+
+        Nossa equipe de especialistas em energia trabalha em parceria com as empresas para entender suas demandas específicas e desenvolver soluções sob medida. Desde análises de consumo até a implementação de projetos de eficiência energética, estamos empenhados em ajudar nossos clientes a reduzir custos, melhorar a sustentabilidade e otimizar o uso de energia.
+  
+        Além disso, oferecemos serviços de monitoramento e manutenção contínuos, garantindo que as empresas tenham um fornecimento de energia estável e confiável. Nosso compromisso com a excelência nos permite entregar resultados consistentes e contribuir para o sucesso e crescimento dos nossos clientes.
+  
+        Na nossa empresa, valorizamos a inovação e estamos sempre atualizados com as tendências e avanços tecnológicos do setor de energia. Buscamos constantemente novas maneiras de otimizar os processos, incorporando soluções inteligentes e sustentáveis que beneficiem tanto nossos clientes quanto o meio ambiente.
+  
+        Se você está em busca de um parceiro confiável para atender às suas necessidades energéticas, entre em contato conosco. Estamos prontos para ajudar sua empresa a prosperar com soluções energéticas eficientes e personalizadas.</p>
+    </div>
+  </section>
+<!--sobre-->
+<!--cliente-->
+    <section class="clientes">
+       <div class="container">
+            <h3>Nossos clientes</h3>
+            <p>Prestamos serviços para todos os tipos de empresas, olhe alguns clientes que temos </p>
+            <div> 
+                <img src="img/rdn__1_-removebg-preview (1).png" alt="">
+                <img src="img/med.png" alt="">
+                <img src="img/Supermercado_Super_nosso-removebg-preview (1).png" alt="">
+            </div>
+       </div> 
+    </section>
+    <!--cliente fim-->
+    <!--segurança-->
+    <section class="suporte">
+        <div class="container">
+            <div class="suporte-text">
+                <h3>Tenha mais segurança</h3>
+                <p>
+                    Em nossos serviços de energia, a segurança é prioridade absoluta. 
+                    Com profissionais altamente capacitados e procedimentos rigorosos, 
+                    garantimos a proteção total dos seus equipamentos e a tranquilidade que você merece. 
+                    Conte conosco para evitar falhas, prevenir acidentes e preservar seu patrimônio. 
+                    Experimente a confiança de um serviço seguro e descubra os benefícios de uma energia confiável
+                </p>
+                <a href="#contatos" class="btn">Entre em contato</a>
+            </div>
+        </div>
+    </section>
+    <!--segurança fim-->
+    <!--serviços-->
+    <section id="servicos"> 
+        <div class="text-servicos">
+        <h3>Alguns de nossos serviços</h3>    
+        </div>
+    <div class="services">
+        <div class="service-card">
+          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+          <h3>Instalações Elétricas</h3>
+          <p>Oferecemos serviços profissionais de instalação elétrica para propriedades residenciais e comerciais.</p>
+          <a href="https://www.vivadecora.com.br/revista/instalacao-eletrica/" class="btn">Saiba mais</a>
+        </div>
+        
+        <div class="service-card">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+          <h3>Reparos Elétricos</h3>
+          <p>Nossos eletricistas qualificados podem diagnosticar e reparar problemas elétricos para garantir a segurança e funcionalidade do seu sistema elétrico.</p>
+          <a href="https://blog.fras-le.com/manutencao-direcao-eletrica/" class="btn">Saiba mais</a>
+        </div>
+        
+        <div class="service-card">
+            <i class="fa fa-home" aria-hidden="true"></i>
+          <h3>Manutencao-Elétrica</h3>
+          <p>Oferecemos serviços de manutenção elétrica periódica para manter seu sistema elétrico em condições ideais e prevenir problemas potenciais.</p>
+          <a href="https://www.produttivo.com.br/blog/manutencao-eletrica/#:~:text=A%20manuten%C3%A7%C3%A3o%20el%C3%A9trica%20envolve%20diversos%20cuidados%3A%20troca%20de,estrutura%20el%C3%A9trica%20e%20diminuem%20a%20incid%C3%AAncia%20de%20danos." class="btn">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+    <!--fecha servicos-->
+    <!--sobre-->
+    
+      
+    <!--footer-->
+    <footer class="footer">
+        <h5 id="contatos">Contatos</h5>
+        <div class="social">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </div>
+        <ul class="links">
+            <li> <a href="https://www.instagram.com/hajaluz007eletrica/">Instagram</a> </li>
+            <li> <a href="https://youtu.be/8bXlk_PgeN0">YouTube</a> </li>
+            <li> <a href="https://api.whatsapp.com/send/?phone=5563992048324&text&type=phone_number&app_absent=0">Whatsapp</a> </li>
+        </ul>
+        <div class="linha"></div>
+        <p class="copy">&copy;Todos os direitos reservados</p>
+    </footer>
+    <!--footer fim-->
+    <script src="js/main.js"></script>
+</body>
+</html>
